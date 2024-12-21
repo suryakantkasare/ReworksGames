@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { db, auth } from '../config/firebase'; 
+import { db } from '../config/firebase'; 
 import { doc, getDoc, updateDoc, arrayUnion } from 'firebase/firestore'; 
 import { useAuth } from '../context/AuthContext'; 
 import 'bootstrap/dist/css/bootstrap.min.css'; 
