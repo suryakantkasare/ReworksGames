@@ -1,0 +1,22 @@
+users (collection)
+  └── {userId} (document)
+      ├── firstName: "John"
+      ├── lastName: "Doe"
+      ├── userName: "john_doe"
+      ├── mobileNumber: "1234567890"
+      ├── country: "USA"
+      ├── city: "New York"
+      ├── email: "john@example.com"
+      └── userId: "abc123xyz"  // Firebase UID of the user
+
+
+
+
+-  Shop Page
+Categories : All(shp) ,(other navbar time in pages for products)
+Filter by price (min-max)(bydefulat all range of prics) (we can select min max )
+Stock status (check box types)
+{On sale
+In stock}
+
+(button) 

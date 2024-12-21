@@ -1,0 +1,79 @@
+/* App.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+  }
+  
+  .App {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  h5 {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  
+  h6 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  
+  .card {
+    border-radius: 10px;
+  }
+  
+  .card-img-top {
+    border-radius: 50%;
+  }
+  
+  .navbar {
+    border-radius: 0;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+  }
+  
+  button {
+    border-radius: 50px;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .table th,
+  .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .table th {
+    background-color: #f1f1f1;
+  }
+  
+  .table td {
+    background-color: #fff;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .table-bordered {
+    border: 1px solid #dee2e6;
+  }
+  
+  .table-responsive {
+    overflow-x: auto;
+  }
+  

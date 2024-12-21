@@ -1,0 +1,202 @@
+{
+  "products": {
+    "product_001": {
+      "id": "product_001",
+      "coverImage": "https://images.pexels.com/photos/2246258/pexels-photo-2246258.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title": "Wireless Bluetooth Headphones",
+      "productType": "physical",
+      "price": 59.99,
+      "discountPrice": 39.99,
+      "schedule": "2024-12-20",
+      "category": "electronics",
+      "tags": ["wireless", "bluetooth", "headphones", "music"],
+      "shortDescription": "Enjoy high-quality sound with these wireless Bluetooth headphones. Perfect for everyday use.",
+      "galleryImages": [
+        "https://via.placeholder.com/300x300?text=Gallery+Image+1",
+        "https://via.placeholder.com/300x300?text=Gallery+Image+2",
+        "https://via.placeholder.com/300x300?text=Gallery+Image+3"
+      ],
+      "createdAt": "2024-12-15T00:00:00Z",
+      "rating": 4.5,
+      "reviews": [
+        {
+          "user": "Alice",
+          "comment": "Great sound quality, comfortable to wear for long hours.",
+          "rating": 5,
+          "date": "2024-12-16T00:00:00Z"
+        },
+        {
+          "user": "Bob",
+          "comment": "Good but the Bluetooth range could be better.",
+          "rating": 4,
+          "date": "2024-12-17T00:00:00Z"
+        }
+      ]
+    },
+    "product_002": {
+      "id": "product_002",
+      "coverImage": "https://images.pexels.com/photos/2246258/pexels-photo-2246258.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title": "Smartphone 5G - Model X",
+      "productType": "physical",
+      "price": 799.99,
+      "discountPrice": 699.99,
+      "schedule": "2024-12-25",
+      "category": "electronics",
+      "tags": ["smartphone", "5G", "android", "mobile"],
+      "shortDescription": "The latest smartphone with 5G connectivity, fast charging, and an amazing camera system.",
+      "galleryImages": [
+        "https://via.placeholder.com/300x300?text=Gallery+Image+1",
+        "https://via.placeholder.com/300x300?text=Gallery+Image+2",
+        "https://via.placeholder.com/300x300?text=Gallery+Image+3"
+      ],
+      "createdAt": "2024-12-12T00:00:00Z",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "user": "Charlie",
+          "comment": "Fantastic phone with excellent camera performance.",
+          "rating": 5,
+          "date": "2024-12-13T00:00:00Z"
+        },
+        {
+          "user": "David",
+          "comment": "Battery life could be better, but overall a solid phone.",
+          "rating": 4,
+          "date": "2024-12-14T00:00:00Z"
+        }
+      ]
+    },
+    "product_003": {
+      "id": "product_003",
+      "coverImage": "https://via.placeholder.com/600x400?text=Cover+Image+3",
+      "title": "Men's Running Shoes",
+      "productType": "physical",
+      "price": 79.99,
+      "discountPrice": 49.99,
+      "schedule": "2024-12-30",
+      "category": "fashion",
+      "tags": ["shoes", "running", "sports", "fitness"],
+      "shortDescription": "Comfortable and durable running shoes designed for high-performance athletes.",
+      "galleryImages": [
+        "https://via.placeholder.com/300x300?text=Gallery+Image+1",
+        "https://via.placeholder.com/300x300?text=Gallery+Image+2",
+        "https://via.placeholder.com/300x300?text=Gallery+Image+3"
+      ],
+      "createdAt": "2024-12-10T00:00:00Z",
+      "rating": 4.3,
+      "reviews": [
+        {
+          "user": "Eve",
+          "comment": "Great shoes for running, very comfortable.",
+          "rating": 5,
+          "date": "2024-12-11T00:00:00Z"
+        },
+        {
+          "user": "Frank",
+          "comment": "Slightly narrow fit, but otherwise great for workouts.",
+          "rating": 4,
+          "date": "2024-12-12T00:00:00Z"
+        }
+      ]
+    },
+    "product_004": {
+      "id": "product_004",
+      "coverImage": "https://via.placeholder.com/600x400?text=Cover+Image+4",
+      "title": "Stainless Steel Coffee Mug",
+      "productType": "physical",
+      "price": 19.99,
+      "discountPrice": 14.99,
+      "schedule": "2024-12-15",
+      "category": "home",
+      "tags": ["coffee", "mug", "stainless", "kitchen"],
+      "shortDescription": "A high-quality stainless steel coffee mug that keeps your drinks hot for hours.",
+      "galleryImages": [
+        "https://via.placeholder.com/300x300?text=Gallery+Image+1",
+        "https://via.placeholder.com/300x300?text=Gallery+Image+2",
+        "https://via.placeholder.com/300x300?text=Gallery+Image+3"
+      ],
+      "createdAt": "2024-12-07T00:00:00Z",
+      "rating": 4.2,
+      "reviews": [
+        {
+          "user": "Grace",
+          "comment": "Perfect mug for coffee lovers. Keeps my coffee warm!",
+          "rating": 5,
+          "date": "2024-12-08T00:00:00Z"
+        },
+        {
+          "user": "Hank",
+          "comment": "The mug is a bit heavy, but works as advertised.",
+          "rating": 3,
+          "date": "2024-12-09T00:00:00Z"
+        }
+      ]
+    },
+    "product_005": {
+      "id": "product_005",
+      "coverImage": "https://via.placeholder.com/600x400?text=Cover+Image+5",
+      "title": "Leather Wallet - Brown",
+      "productType": "physical",
+      "price": 39.99,
+      "discountPrice": 29.99,
+      "schedule": "2024-12-18",
+      "category": "fashion",
+      "tags": ["wallet", "leather", "fashion", "accessory"],
+      "shortDescription": "A premium leather wallet with multiple compartments for cards and cash.",
+      "galleryImages": [
+        "https://via.placeholder.com/300x300?text=Gallery+Image+1",
+        "https://via.placeholder.com/300x300?text=Gallery+Image+2",
+        "https://via.placeholder.com/300x300?text=Gallery+Image+3"
+      ],
+      "createdAt": "2024-12-05T00:00:00Z",
+      "rating": 4.8,
+      "reviews": [
+        {
+          "user": "Ivy",
+          "comment": "Love this wallet, very durable and stylish.",
+          "rating": 5,
+          "date": "2024-12-06T00:00:00Z"
+        },
+        {
+          "user": "Jack",
+          "comment": "Great wallet, but wish there were more color options.",
+          "rating": 4,
+          "date": "2024-12-07T00:00:00Z"
+        }
+      ]
+    },
+    "product_006": {
+      "id": "product_006",
+      "coverImage": "https://via.placeholder.com/600x400?text=Cover+Image+6",
+      "title": "Yoga Mat - Non-slip",
+      "productType": "physical",
+      "price": 29.99,
+      "discountPrice": 19.99,
+      "schedule": "2024-12-22",
+      "category": "sports",
+      "tags": ["yoga", "fitness", "mat", "exercise"],
+      "shortDescription": "A non-slip yoga mat designed for comfort and stability during your workout.",
+      "galleryImages": [
+        "https://via.placeholder.com/300x300?text=Gallery+Image+1",
+        "https://via.placeholder.com/300x300?text=Gallery+Image+2",
+        "https://via.placeholder.com/300x300?text=Gallery+Image+3"
+      ],
+      "createdAt": "2024-12-02T00:00:00Z",
+      "rating": 4.6,
+      "reviews": [
+        {
+          "user": "Kara",
+          "comment": "Perfect for my yoga practice. Non-slip and very durable.",
+          "rating": 5,
+          "date": "2024-12-03T00:00:00Z"
+        },
+        {
+          "user": "Leo",
+          "comment": "Good mat but a bit on the thinner side.",
+          "rating": 4,
+          "date": "2024-12-04T00:00:00Z"
+        }
+      ]
+    }
+  }
+}
