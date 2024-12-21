@@ -20,10 +20,7 @@ const Home = () => {
         {/* <Shop /> Display the Shop component */}
       </section>
 
-      {/* Footer */}
-      <footer className="text-center mt-4">
-        <p>© 2024 Your Shop - All Rights Reserved</p>
-      </footer>
+      
     </div>
   );
 };

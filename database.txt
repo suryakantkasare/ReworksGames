@@ -20,3 +20,14 @@ Stock status (check box types)
 In stock}
 
 (button) 
+
+
+<div>
+<div col-2>
+logo
+</div >
+
+<div>
+<div>
+</div>
+</div>

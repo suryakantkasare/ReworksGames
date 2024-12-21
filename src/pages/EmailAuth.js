@@ -37,7 +37,7 @@ const EmailAuth = () => {
     if (isLogin) {
       try {
         await signInWithEmailAndPassword(auth, email, password);
-        navigate('/home');
+        navigate('/');
       } catch (err) {
         setError('Login failed: ' + err.message);
       } finally {
@@ -78,7 +78,7 @@ const EmailAuth = () => {
           email,
         });
 
-        navigate('/home');
+        navigate('/');
       } catch (err) {
         setError('Signup failed: ' + err.message);
       } finally {

@@ -11,7 +11,7 @@ import AddCartPage from './pages/AddCartPage';
 import ProductDetailPage from './pages/ProductDetailPage';
 import NotFound from './pages/NotFound';
 import Navbar from './components/Navbar'; // Import Navbar component
-
+import Footer from './components/Footer';
 // ProtectedRoute component for general users
 const ProtectedRoute = ({ element, adminOnly = false }) => {
   const { user, isAdmin } = useAuth(); // Get user and isAdmin status from context
@@ -38,8 +38,8 @@ function App() {
 
         <Routes>
           {/* Public Routes */}
-          <Route path="/" element={<EmailAuth />} /> {/* Login Page */}
-          <Route path="/home" element={<Home />} /> {/* Home Page */}
+          <Route path="/" element={<Home />} /> {/* Home Page */}
+          <Route path="/login" element={<EmailAuth />} /> {/* Login Page */}
           <Route path="/shop" element={<Shop />} /> {/* Shop Page */}
           <Route path="/addtocart" element={<AddCartPage />} /> {/* Cart Page */}
 
@@ -61,6 +61,7 @@ function App() {
           {/* Fallback route for unknown routes */}
           <Route path="*" element={<NotFound />} /> {/* 404 Page */}
         </Routes>
+        <Footer/>
       </Router>
     </AuthProvider>
   );

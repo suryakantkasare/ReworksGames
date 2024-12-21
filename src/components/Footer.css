@@ -1,0 +1,14 @@
+.horizontal-links a {
+    transition: color 0.3s ease;
+  }
+  
+  .horizontal-links a:hover {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  .footer-button:hover {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
